@@ -20,15 +20,15 @@
 
 <body>
     <main class="container">
-        <picture class="preview">
-            <img class="product-desktop" src="./src/images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum">
-        </picture>
+        <section class="picture">
+            <picture class="preview">
+                <source class="product-mobile" srcset="./src/images/image-product-mobile.jpg" media="(max-width:610px)">
 
-        <picture class="preview">
-            <img class="product-mobile" src="./src/images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum">
-        </picture>
+                <img class="product-desktop" src="./src/images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum">
+            </picture>
+        </section>
 
-        <div class="informations">
+        <section class="informations">
             <div class="text">
                 <h2 class="category">Perfume</h2>
 
@@ -49,8 +49,10 @@
                 <img class="cart" src="./src/images/icon-cart.svg" alt="Cart">
                 <span>Add to Cart</span>
             </button>
-        </div>
+        </section>
     </main>
 </body>
-
 </html>
+
+crtl +shift + p + enter + nome da tag + enter
+crtl + d
